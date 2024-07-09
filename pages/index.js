@@ -27,7 +27,7 @@ export default function Home() {
             <div className="relative rounded-lg border-2 border-[#be123c] m-4 md:m-8">
               <div className="px-12 py-8 flex justify-center">
                 <div className="my-auto">
-                  <h2 className="text-2xl font-bold"><span className="text-[#be123c]">「奈良宣言2024」</span>をご存じですか？</h2>
+                  <h2 className="text-2xl font-bold"><span className="text-[#be123c]">「奈良宣言2024」</span><br className="md:hidden"/>をご存じですか？</h2>
                   <Image src="/kanzou.jpg" alt="Placeholder Image 1" className="mt-4 md:hidden" width={300} height={300} />
                   <h2 className="mt-12">日本肝臓学会では、「Stop CLD せんとくんの<br/>Over30（ALT＞30U/L）」の宣言を発出し、<br/>かかりつけ医への受診促進を目的として、<br/><span className="font-bold">慢性肝臓病（CLD）の早期発見</span>を図ります。</h2>
                 </div>
@@ -37,10 +37,10 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="rounded-lg border-2 border-[#be123c] m-8">
+            <div className="rounded-lg border-2 border-[#be123c] m-4 md:m-8">
               <div className="px-12 py-8 flex justify-center">
                 <div className="my-auto">
-                  <h2 className="text-2xl font-bold">何が原因で<span className="text-[#be123c]">ALT</span>は高くなる？</h2>
+                  <h2 className="text-2xl font-bold">何が原因で<br className="md:hidden"/><span className="text-[#be123c]">ALT</span>は高くなる？</h2>
                   <Image src="/kanzou.jpg" alt="Placeholder Image 2" className="mt-4 md:hidden" width={300} height={300} />
                   <h2 className="mt-12"><span className="font-bold">運動不足</span>や<span className="font-bold">睡眠不足</span>などによる<span className="font-bold">生活習慣</span>を基盤とした、<br/>いわゆる脂肪肝などが進行して肝硬変や肝臓がんになることも<br/>増えており、<span className="font-bold">日常生活から注意</span>が必要です。</h2>
                 </div>
@@ -50,7 +50,7 @@ export default function Home() {
               </div>
             </div>
 
-            <form className="border border-pink-800 p-6 rounded-lg mb-8 bg-[#be123c] font-bold" action="https://script.google.com/a/macros/g.chuo-u.ac.jp/s/AKfycbyf7PqoBRsbqs-ko34fgOoGvOy8sYK1Yd6rmI2wUAayRKayhnqv_TBl_CdLuPHYGZ8cUQ/exec" method="POST">
+            <form className="border border-pink-800 p-6 md:rounded-lg mb-8 bg-[#be123c] font-bold" action="https://script.google.com/a/macros/g.chuo-u.ac.jp/s/AKfycbyf7PqoBRsbqs-ko34fgOoGvOy8sYK1Yd6rmI2wUAayRKayhnqv_TBl_CdLuPHYGZ8cUQ/exec" method="POST">
               <div className="md:flex justify-center text-center">
                 <div className="mb-4 md:float-left bg-white p-8">
                   <Image src="/johansin.jpg" alt="Placeholder Image 2" className="mx-auto" width={300} height={300} />
@@ -89,7 +89,7 @@ export default function Home() {
               </div>
             </form>
 
-            <div className="text-center rounded-lg border-2 border-[#be123c] py-8 font-bold">
+            <div className="text-center rounded-lg border-2 border-[#be123c] py-8 font-bold m-4 md:m-8">
               <h2 className="mb-4 text-4xl">ALTは<span className="text-[#be123c]">肝臓の機能を表す</span><br className="md:hidden"/>検査値です。</h2>
               <div className="mx-8 my-4 p-4 rounded-lg shadow-wide text-left flex justify-center">
                 <div className="float-left">
@@ -109,7 +109,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="my-8 mx-4 text-xs">
+            <div className="mt-8 mx-4 pb-8 text-xs">
               <h3>(1)Kenneth Cusi et al., American Association of Clinical Endocrinology </h3>
               <h3>Clinical Practice Guideline for the Diagnosis and Management of </h3>
               <h3>Nonalcoholic Fatty Liver Disease in Primary Care and Endocrinology </h3>
