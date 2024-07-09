@@ -8,70 +8,76 @@ export default function Home() {
       <div>
         <header className="text-center bg-[#be123c] text-white h-20"/>
 
-        <main className="bg-white p-8 shadow-lg">
-          <div className="w-1/2 mx-auto">
-            <div className="flex items-center justify-center">
-              <div className="float-left">
-                <h1 className="text-2xl font-bold"><span className="text-[#be123c] text-4xl">肝機能</span>に関する<br/>アンケートのお願い</h1>
-                <div className="rounded-full bg-[#640201] h-14 w-40 flex items-center">
-                  <p className="text-white text-xl mx-auto">全2問 | 30秒</p>
+        <main className="bg-white md:p-8 shadow-lg">
+          <div className="md:w-1/2 mx-auto">
+            <div className="md:flex items-center justify-center relative">
+              <div className="z-10 mx-auto absolute inset-0 flex items-center justify-center md:relative md:float-left">
+                <div>
+                  <h1 className="text-2xl font-bold"><span className="text-[#be123c] text-4xl">肝機能</span>に関する<br/>アンケートのお願い</h1>
+                  <div className="rounded-full bg-[#640201] h-14 w-40 flex items-center">
+                    <p className="text-white text-xl mx-auto">全2問 | 30秒</p>
+                  </div>
                 </div>
               </div>
-              <Image src="/kanzou.jpg" alt="Placeholder Image 1" className="ml-12" width={400} height={300}/>
+              <div className="flex items-center justify-center md:relative md:ml-12">
+                <Image src="/kanzou.jpg" alt="Placeholder Image 1" className="opacity-40 md:opacity-100 h-full" width={400} height={300}/>
+              </div>
             </div>
             
-            <div className="rounded-lg border-2 border-[#be123c] m-8">
-              <div className="px-12 py-8">
-                <div className="float-left">
+            <div className="relative rounded-lg border-2 border-[#be123c] m-4 md:m-8">
+              <div className="px-12 py-8 flex justify-center">
+                <div className="my-auto">
                   <h2 className="text-2xl font-bold"><span className="text-[#be123c]">「奈良宣言2024」</span>をご存じですか？</h2>
+                  <Image src="/kanzou.jpg" alt="Placeholder Image 1" className="mt-4 md:hidden" width={300} height={300} />
                   <h2 className="mt-12">日本肝臓学会では、「Stop CLD せんとくんの<br/>Over30（ALT＞30U/L）」の宣言を発出し、<br/>かかりつけ医への受診促進を目的として、<br/><span className="font-bold">慢性肝臓病（CLD）の早期発見</span>を図ります。</h2>
                 </div>
-                <div className="flex justify-center">
+                <div className="ml-24 hidden md:block">
                     <Image src="/kanzou.jpg" alt="Placeholder Image 1" width={300} height={300} />
                 </div>
               </div>
             </div>
 
             <div className="rounded-lg border-2 border-[#be123c] m-8">
-              <div className="px-12 py-8">
-                <div className="float-left">
+              <div className="px-12 py-8 flex justify-center">
+                <div className="my-auto">
                   <h2 className="text-2xl font-bold">何が原因で<span className="text-[#be123c]">ALT</span>は高くなる？</h2>
+                  <Image src="/kanzou.jpg" alt="Placeholder Image 2" className="mt-4 md:hidden" width={300} height={300} />
                   <h2 className="mt-12"><span className="font-bold">運動不足</span>や<span className="font-bold">睡眠不足</span>などによる<span className="font-bold">生活習慣</span>を基盤とした、<br/>いわゆる脂肪肝などが進行して肝硬変や肝臓がんになることも<br/>増えており、<span className="font-bold">日常生活から注意</span>が必要です。</h2>
                 </div>
-                <div className="flex justify-center">
+                <div className="ml-12 hidden md:block">
                   <Image src="/kanzou.jpg" alt="Placeholder Image 2" width={300} height={300} />
                 </div>
               </div>
             </div>
 
-            <form className="border border-pink-800 p-6 rounded-lg mb-8 bg-[#be123c] font-bold">
-              <div className="flex justify-center">
-                <div className="mb-4 float-left bg-white p-8">
-                  <Image src="/johansin.jpg" alt="Placeholder Image 2" width={300} height={300} />
-                  <h3 className="mb-2">自分の<span className="text-[#be123c]">ALTの数値</span>をご存じですか？</h3>
-                  <label className="block mb-2">
-                    <input type="radio" name="question1" value="yes" className="mr-2" />
+            <form className="border border-pink-800 p-6 rounded-lg mb-8 bg-[#be123c] font-bold" action="https://script.google.com/a/macros/g.chuo-u.ac.jp/s/AKfycbyf7PqoBRsbqs-ko34fgOoGvOy8sYK1Yd6rmI2wUAayRKayhnqv_TBl_CdLuPHYGZ8cUQ/exec" method="POST">
+              <div className="md:flex justify-center text-center">
+                <div className="mb-4 md:float-left bg-white p-8">
+                  <Image src="/johansin.jpg" alt="Placeholder Image 2" className="mx-auto" width={300} height={300} />
+                  <h3 className="my-4">自分の<span className="text-[#be123c]">ALTの数値</span>をご存じですか？</h3>
+                  <label className="block mb-2 shadow-wide rounded-full p-4">
+                    <input type="radio" name="question1" value="YES" className="mr-6" />
                     YES
                   </label>
-                  <label className="block">
-                    <input type="radio" name="question1" value="no" className="mr-2" />
+                  <label className="block shadow-wide rounded-full p-4">
+                    <input type="radio" name="question1" value="NO" className="mr-6" />
                     NO
                   </label>
                 </div>
 
-                <div className="mb-4 bg-white float-left p-8 ml-4">
-                  <Image src="/ningyo.jpg" alt="Placeholder Image 2" width={300} height={300} />
-                  <h3 className="mb-2">動画をみてどのように感じましたか？</h3>
-                  <label className="block mb-2">
-                    <input type="radio" name="question2" value="yes" className="mr-2" />
+                <div className="mb-4 bg-white md:float-left p-8 md:ml-4 text-center">
+                  <Image src="/ningyo.jpg" alt="Placeholder Image 2" className="mx-auto" width={300} height={300} />
+                  <h3 className="my-4">動画をみてどのように感じましたか？</h3>
+                  <label className="block mb-2 shadow-wide rounded-full p-4">
+                    <input type="radio" name="question2" value="自分のALTに興味を持った" className="mr-6" />
                     自分のALTに興味を持った
                   </label>
-                  <label className="block mb-2">
-                    <input type="radio" name="question2" value="no" className="mr-2" />
+                  <label className="block mb-2 shadow-wide rounded-full p-4">
+                    <input type="radio" name="question2" value="内容をもっと知りたいと思った" className="mr-6" />
                     内容をもっと知りたいと思った
                   </label>
-                  <label className="block">
-                    <input type="radio" name="question2" value="unsure" className="mr-2" />
+                  <label className="block shadow-wide rounded-full p-4">
+                    <input type="radio" name="question2" value="医療機関を受診しようと思った" className="mr-6" />
                     医療機関を受診しようと思った
                   </label>
                 </div>
@@ -84,11 +90,11 @@ export default function Home() {
             </form>
 
             <div className="text-center rounded-lg border-2 border-[#be123c] py-8 font-bold">
-              <h2 className="mb-4 text-4xl">ALTは<span className="text-[#be123c]">肝臓の機能を表す</span>検査値です。</h2>
-              <div className="mx-8 my-4 p-4 rounded-lg border-2 shadow text-left flex justify-center">
+              <h2 className="mb-4 text-4xl">ALTは<span className="text-[#be123c]">肝臓の機能を表す</span><br className="md:hidden"/>検査値です。</h2>
+              <div className="mx-8 my-4 p-4 rounded-lg shadow-wide text-left flex justify-center">
                 <div className="float-left">
-                  <h2 className="mb-4">数値が高いと、何らかのトラブルにより<span className="text-[#be123c]">肝臓の機能が<br/>低下している可能性</span>があります</h2>
-                  <h2>健康診断などでALTが<span className="text-[#be123c]">30を超えたら</span>、<br/>かかりつけ医を受診しましょう</h2>
+                  <h2 className="mb-4">数値が高いと、何らかのトラブルにより<span className="text-[#be123c]">肝臓の機能が<br className="hidden md:inline"/>低下している可能性</span>があります</h2>
+                  <h2>健康診断などでALTが<span className="text-[#be123c]">30を超えたら</span>、<br className="hidden md:inline"/>かかりつけ医を受診しましょう</h2>
                 </div>
                 <Image src="/u-n.jpg" alt="Placeholder Image 2" width={150} height={150} />
               </div>
@@ -103,7 +109,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="my-8">
+            <div className="my-8 mx-4 text-xs">
               <h3>(1)Kenneth Cusi et al., American Association of Clinical Endocrinology </h3>
               <h3>Clinical Practice Guideline for the Diagnosis and Management of </h3>
               <h3>Nonalcoholic Fatty Liver Disease in Primary Care and Endocrinology </h3>
