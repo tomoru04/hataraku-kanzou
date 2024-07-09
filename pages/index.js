@@ -94,9 +94,13 @@ export default function Home() {
               <div className="mx-8 my-4 p-4 rounded-lg shadow-wide text-left flex justify-center">
                 <div className="float-left">
                   <h2 className="mb-4">数値が高いと、何らかのトラブルにより<span className="text-[#be123c]">肝臓の機能が<br className="hidden md:inline"/>低下している可能性</span>があります</h2>
-                  <h2>健康診断などでALTが<span className="text-[#be123c]">30を超えたら</span>、<br className="hidden md:inline"/>かかりつけ医を受診しましょう</h2>
+                  <h2 className="hidden md:inline">健康診断などでALTが<span className="text-[#be123c]">30を超えたら</span>、<br className="hidden md:inline"/>かかりつけ医を受診しましょう</h2>
+                  <div className="flex md:hidden">
+                    <h2>健康診断などでALTが<span className="text-[#be123c]">30を超えたら</span>、<br className="hidden md:inline"/>かかりつけ医を受診しましょう</h2>
+                    <Image src="/u-n.jpg" alt="Placeholder Image 2" className="md:hidden"width={150} height={150} />
+                  </div>
                 </div>
-                <Image src="/u-n.jpg" alt="Placeholder Image 2" width={150} height={150} />
+                <Image src="/u-n.jpg" alt="Placeholder Image 2" className="hidden md:block"width={150} height={150} />
               </div>
               <h2 className="mx-8 text-left">日本において、人間ドックや健診を受けた人の1/3は肝機能の数値が異常だったという報告があります。<br/>そして高いALT値は肝疾患における有害な転帰や有病率の増加をもたらすという報告もあります。1) <br/>一方で肝臓は「沈黙の臓器」と言われ、障害があっても症状が現れにくく<br/>明らかな症状が出るころには既に重症化してしまう特徴があります。 </h2>
               <div className="flex flex-col mt-4 px-16">
