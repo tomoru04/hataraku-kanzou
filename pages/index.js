@@ -15,9 +15,9 @@ export default function Home() {
                 <div>
                   <p className="font-bold text-[20px]"><span className="text-[#be123c] text-[36px]">肝機能</span>に関する<br/>アンケートのお願い</p>
                   <div className="rounded-full bg-[#640201] h-14 w-40 flex items-center justify-center mt-2">
-                    <p className="text-white text-[16px] mr-2 mt-1">全2問</p>
-                    <p className="text-white text-[16px]">|</p>
-                    <p className="text-white text-[20px] ml-2">30秒</p>
+                    <p className="text-white text-[16px] mr-2 mt-[0.5px]">全2問</p>
+                    <p className="text-white text-[16px] mb-1">|</p>
+                    <p className="text-white text-[20px] ml-2 mb-[1.2px]">30秒</p>
                   </div>
                 </div>
               </div>
