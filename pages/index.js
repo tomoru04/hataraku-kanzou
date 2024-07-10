@@ -52,7 +52,7 @@ export default function Home() {
               </div>
             </div>
 
-            <form className="border border-pink-800 p-16 md:rounded-lg mb-8 bg-[#be123c] font-bold" action="https://script.google.com/a/macros/g.chuo-u.ac.jp/s/AKfycbyf7PqoBRsbqs-ko34fgOoGvOy8sYK1Yd6rmI2wUAayRKayhnqv_TBl_CdLuPHYGZ8cUQ/exec" method="POST">
+            <form className="border border-pink-800 p-16 md:rounded-lg mb-8 bg-[#be123c] font-bold" action="https://script.google.com/macros/s/AKfycbxGbKTtAqtVRudWP2WPCjO5VEi9HNvqv-fnzhYqgeZ0RdlCVrijAWEZOCY493YzfnlIuw/exec" method="POST">
               <div className="md:flex justify-center text-center">
                 <div className="mb-4 md:float-left bg-white p-8 md:rounded-lg relative">
                   <div className="bg-white rounded-full w-[18%] h-[13%] absolute top-[-7%] left-[43%]">
@@ -112,12 +112,12 @@ export default function Home() {
               </div>
               <h2 className="mx-8 text-left">日本において、人間ドックや健診を受けた人の1/3は肝機能の数値が異常だったという報告があります。<br/>そして高いALT値は肝疾患における有害な転帰や有病率の増加をもたらすという報告もあります。1) <br/>一方で肝臓は「沈黙の臓器」と言われ、障害があっても症状が現れにくく<br/>明らかな症状が出るころには既に重症化してしまう特徴があります。 </h2>
               <div className="flex flex-col mt-4 px-16">
-                <button className="bg-[#be123c] text-white mb-2 py-2 px-4 rounded-3xl hover:bg-pink-900">
+                <a className="bg-[#be123c] text-white mb-2 py-2 px-4 rounded-3xl hover:bg-pink-900">
                   詳しく知りたい方はこちら
-                </button>
-                <button className="bg-[#be123c] text-white py-2 px-4 rounded-3xl hover:bg-pink-900">
+                </a>
+                <a className="bg-[#be123c] text-white py-2 px-4 rounded-3xl hover:bg-pink-900" href="https://medical.taisho.co.jp/">
                   大正製薬の公式HPはこちら
-                </button>
+                </a>
               </div>
             </div>
 
