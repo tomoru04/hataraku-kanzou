@@ -52,10 +52,10 @@ export default function Home() {
               </div>
             </div>
 
-            <form className="border border-pink-800 p-16 md:rounded-lg mb-8 bg-[#be123c] font-bold" action="https://script.google.com/macros/s/AKfycbxGbKTtAqtVRudWP2WPCjO5VEi9HNvqv-fnzhYqgeZ0RdlCVrijAWEZOCY493YzfnlIuw/exec" method="POST">
+            <form className="border border-pink-800 p-4 md:p-16 md:rounded-lg mb-8 bg-[#be123c] font-bold" action="https://script.google.com/macros/s/AKfycbxGbKTtAqtVRudWP2WPCjO5VEi9HNvqv-fnzhYqgeZ0RdlCVrijAWEZOCY493YzfnlIuw/exec" method="POST">
               <div className="md:flex justify-center text-center">
-                <div className="mb-4 md:float-left bg-white p-8 md:rounded-lg relative">
-                  <div className="bg-white rounded-full w-[18%] h-[13%] absolute top-[-7%] left-[43%]">
+                <div className="mt-12 md:mt-0 mb-4 md:float-left bg-white p-8 rounded-lg relative">
+                  <div className="bg-white rounded-full w-[60px] h-[60px] absolute top-[-7%] left-[40%]">
                     <p className="mt-3 text-xl text-[#be123cf]">Q1</p>
                   </div>
                   <Image src="/johansin.jpg" alt="Placeholder Image 2" className="mx-auto" width={300} height={300} />
@@ -70,12 +70,12 @@ export default function Home() {
                   </label>
                 </div>
 
-                <div className="mb-4 bg-white md:float-left p-8 md:ml-4 text-center md:rounded-lg relative">
-                  <div className="bg-white rounded-full w-[18%] h-[13%] absolute top-[-7%] left-[43%]">
+                <div className="mt-16 md:mt-0 mb-4 bg-white md:float-left p-8 md:ml-4 text-center rounded-lg relative">
+                  <div className="bg-white rounded-full w-[60px] h-[60px] absolute top-[-7%] left-[40%]">
                     <p className="mt-3 text-xl text-[#be123cf]">Q2</p>
                   </div>
                   <Image src="/ningyo.jpg" alt="Placeholder Image 2" className="mx-auto" width={300} height={300} />
-                  <h3 className="my-4">動画をみてどのように感じましたか？</h3>
+                  <p className="my-4">動画をみてどのように感じましたか？</p>
                   <label className="block mb-2 shadow-wide rounded-full p-4">
                     <input type="radio" name="question2" value="自分のALTに興味を持った" className="mr-6" />
                     自分のALTに興味を持った
@@ -98,20 +98,20 @@ export default function Home() {
             </form>
 
             <div className="text-center rounded-lg border-2 border-[#be123c] py-8 font-bold m-4 md:m-8">
-              <h2 className="mb-4 text-4xl">ALTは<span className="text-[#be123c]">肝臓の機能を表す</span><br className="md:hidden"/>検査値です。</h2>
-              <div className="mx-8 my-4 p-4 rounded-lg shadow-wide text-left flex justify-center">
+              <p className="mb-4 text-3xl md:text-4xl">ALTは<span className="text-[#be123c]">肝臓の機能を表す</span><br className="md:hidden"/>検査値です。</p>
+              <div className="mx-5 md:mx-8 my-4 p-4 rounded-lg shadow-wide text-left flex justify-center">
                 <div className="float-left my-auto">
-                  <h2 className="mb-4">数値が高いと、何らかのトラブルにより<span className="text-[#be123c]">肝臓の機能が<br className="hidden md:inline"/>低下している可能性</span>があります</h2>
-                  <h2 className="hidden md:inline">健康診断などでALTが<span className="text-[#be123c]">30を超えたら</span>、<br className="hidden md:inline"/>かかりつけ医を受診しましょう</h2>
+                  <p className="mb-4 text-[16px]">数値が高いと、何らかのトラブルにより<span className="text-[#be123c]">肝臓の機能が<br className="hidden md:inline"/>低下している可能性</span>があります</p>
+                  <p className="hidden md:inline text-[16px]">健康診断などでALTが<span className="text-[#be123c]">30を超えたら</span>、<br className="hidden md:inline"/>かかりつけ医を受診しましょう</p>
                   <div className="flex md:hidden">
-                    <h2>健康診断などでALTが<span className="text-[#be123c]">30を超えたら</span>、<br className="hidden md:inline"/>かかりつけ医を受診しましょう</h2>
-                    <Image src="/u-n.jpg" alt="Placeholder Image 2" className="md:hidden"width={150} height={150} />
+                    <p>健康診断などでALTが<span className="text-[#be123c]">30を超えたら</span>、<br className="hidden md:inline"/>かかりつけ医を受診しましょう</p>
+                    <Image src="/u-n.jpg" alt="Placeholder Image 2" className="md:hidden" width={130} height={130} />
                   </div>
                 </div>
                 <Image src="/u-n.jpg" alt="Placeholder Image 2" className="hidden md:block"width={150} height={150} />
               </div>
-              <h2 className="mx-8 text-left">日本において、人間ドックや健診を受けた人の1/3は肝機能の数値が異常だったという報告があります。<br/>そして高いALT値は肝疾患における有害な転帰や有病率の増加をもたらすという報告もあります。1) <br/>一方で肝臓は「沈黙の臓器」と言われ、障害があっても症状が現れにくく<br/>明らかな症状が出るころには既に重症化してしまう特徴があります。 </h2>
-              <div className="flex flex-col mt-4 px-16">
+              <p className="mx-8 text-left text-[10px]">日本において、人間ドックや健診を受けた人の1/3は肝機能の数値が異常だったという報告があります。<br/>そして高いALT値は肝疾患における有害な転帰や有病率の増加をもたらすという報告もあります。1) <br/>一方で肝臓は「沈黙の臓器」と言われ、障害があっても症状が現れにくく<br/>明らかな症状が出るころには既に重症化してしまう特徴があります。 </p>
+              <div className="flex flex-col mt-4 px-6 md:px-16">
                 <a className="bg-[#be123c] text-white mb-2 py-2 px-4 rounded-3xl hover:bg-pink-900">
                   詳しく知りたい方はこちら
                 </a>
