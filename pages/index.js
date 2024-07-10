@@ -26,7 +26,7 @@ export default function Home() {
               </div>
             </div>
             
-            <div className="relative rounded-lg border-2 border-[#be123c] m-4 md:mx-20 md:my-8">
+            <div className="relative rounded-lg border-2 border-[#be123c] m-4 md:mx-2 md:my-8">
               <div className="px-12 py-6 flex justify-center">
                 <div className="my-auto">
                   <p className="text-[20px] font-bold"><span className="text-[#be123c]">「奈良宣言2024」</span><br className="md:hidden"/>をご存じですか？</p>
@@ -39,7 +39,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="rounded-lg border-2 border-[#be123c] m-4 md:mx-20 md:my-8">
+            <div className="rounded-lg border-2 border-[#be123c] m-4 md:mx-2 md:my-8">
               <div className="px-12 py-6 flex justify-center">
                 <div className="my-auto">
                   <h2 className="text-[20px] font-bold">何が原因で<br className="md:hidden"/><span className="text-[#be123c]">ALT</span>は高くなる？</h2>
