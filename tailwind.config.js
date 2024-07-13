@@ -15,6 +15,9 @@ module.exports = {
       boxShadow: {
         'wide': '0px 0px 8px 2px rgba(0, 0, 0, 0.08)',
       },
+      fontFamily: {
+        "noto-sans": ["Noto Sans JP"],
+      },
     },
   },
   plugins: [],
