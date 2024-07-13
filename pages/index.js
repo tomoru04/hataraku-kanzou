@@ -5,6 +5,7 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <div>
+      
       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;800&display=swap" rel="stylesheet" />
       <div className="font-noto-sans">
         <header className="text-center bg-[#be123c] text-white h-20"/>
