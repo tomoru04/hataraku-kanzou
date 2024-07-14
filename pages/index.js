@@ -1,6 +1,7 @@
 // pages/index.js
 
 import Image from 'next/image';
+import { YouTubeEmbed } from "@next/third-parties/google";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
               <div className="z-10 absolute inset-0 flex items-center justify-center md:relative md:float-left">
                 <div>
                   <p className="font-bold text-[20px]"><span className="text-[#be123c] text-[36px]">肝機能</span>に関する<br/>アンケートのお願い</p>
-                  <div className="rounded-full bg-[#640201] h-14 w-40 flex items-center justify-center mt-2">
+                  <div className="rounded-full bg-[#640201] h-14 w-40 flex items-center justify-center mt-2 mx-auto">
                     <p className="text-white text-[16px] mr-2 mt-[0.5px]">全2問</p>
                     <p className="text-white text-[16px] mb-1">|</p>
                     <p className="text-white text-[20px] ml-2 mb-[1.2px]">30秒</p>
@@ -29,57 +30,61 @@ export default function Home() {
             </div>
             
             <div className="relative rounded-lg border-2 border-[#be123c] w-[340px] md:w-auto mx-auto my-4 md:mx-2 md:my-8">
-              <div className="px-12 py-6 flex justify-center">
+              <div className="px-12 py-10 flex justify-center">
                 <div className="my-auto">
-                  <p className="text-[20px] font-bold"><span className="text-[#be123c]">「奈良宣言2024」</span><br className="md:hidden"/>をご存じですか？</p>
-                  <Image src="/kanzou.jpg" alt="Placeholder Image 1" className="mt-4 md:hidden" width={300} height={300} />
-                  <p className="text-[11px] mt-12">日本肝臓学会では、「Stop CLD せんとくんの<br/>Over30（ALT＞30U/L）」の宣言を発出し、<br/>かかりつけ医への受診促進を目的として、<br/><span className="font-bold">慢性肝臓病（CLD）の早期発見</span>を図ります。</p>
+                  <p className="text-[20px] font-bold"><span className="text-[#be123c] text-2xl">｢奈良宣言2023｣</span><br className="md:hidden"/>をご存じですか？</p>
+                  <div className="mt-4 md:hidden">
+                    <YouTubeEmbed videoid="2DX5DYOr2PI"/>
+                  </div>
+                  <p className="text-[11px] mt-6">日本肝臓学会では、「Stop CLD せんとくんの<br/>Over30（ALT＞30U/L）」の宣言を発出し、<br/>かかりつけ医への受診促進を目的として、<br/><span className="font-bold">慢性肝臓病（CLD）の早期発見</span>を図ります。</p>
                 </div>
-                <div className="ml-12 hidden md:block">
-                    <Image src="/kanzou.jpg" alt="Placeholder Image 1" width={300} height={300} />
+                <div className="ml-10 hidden md:block">
+                    <YouTubeEmbed videoid="2DX5DYOr2PI" width={300}/>
                 </div>
               </div>
             </div>
 
             <div className="rounded-lg border-2 border-[#be123c] w-[340px] md:w-auto mx-auto my-4 md:mx-2 md:my-8">
-              <div className="px-12 py-6 flex justify-center">
+              <div className="px-12 py-10 flex justify-center">
                 <div className="my-auto">
-                  <h2 className="text-[20px] font-bold">何が原因で<br className="md:hidden"/><span className="text-[#be123c]">ALT</span>は高くなる？</h2>
-                  <Image src="/kanzou.jpg" alt="Placeholder Image 2" className="mt-4 md:hidden" width={300} height={300} />
-                  <p className="text-[11px] mt-12"><span className="font-bold">運動不足</span>や<span className="font-bold">睡眠不足</span>などによる<span className="font-bold">生活習慣</span>を基盤とした、<br className="hidden md:block"/>いわゆる脂肪肝などが進行して肝硬変や肝臓がんになることも<br className="hidden md:block"/>増えており、<span className="font-bold">日常生活から注意</span>が必要です。</p>
+                  <h2 className="text-[20px] font-bold">何が原因で<br className="md:hidden"/><span className="text-[#be123c] text-2xl">ALTは高くなる？</span></h2>
+                  <div className="mt-4 md:hidden">
+                    <YouTubeEmbed videoid="Vv-utS68Xhg"/>
+                  </div>
+                  <p className="text-[11px] mt-6"><span className="font-bold">運動不足</span>や<span className="font-bold">睡眠不足</span>などによる<span className="font-bold">生活習慣</span>を基盤とした、<br className="hidden md:block"/>いわゆる脂肪肝などが進行して肝硬変や肝臓がんになることも<br className="hidden md:block"/>増えており、<span className="font-bold">日常生活から注意</span>が必要です。</p>
                 </div>
-                <div className="ml-12 hidden md:block">
-                  <Image src="/kanzou.jpg" alt="Placeholder Image 2" width={300} height={300} />
+                <div className="ml-[76px] hidden md:block">
+                  <YouTubeEmbed videoid="Vv-utS68Xhg" width={300}/>
                 </div>
               </div>
             </div>
 
-            <form className="border border-pink-800 p-4 md:p-16 md:rounded-lg mb-8 bg-[#be123c] font-bold text-[14px]" action="https://script.google.com/macros/s/AKfycbxGbKTtAqtVRudWP2WPCjO5VEi9HNvqv-fnzhYqgeZ0RdlCVrijAWEZOCY493YzfnlIuw/exec" method="POST">
+            <form className="border border-pink-800 p-4 md:p-16 md:pb-6 md:rounded-lg mb-8 bg-[#be123c] font-bold text-[14px]" action="https://script.google.com/macros/s/AKfycbxGbKTtAqtVRudWP2WPCjO5VEi9HNvqv-fnzhYqgeZ0RdlCVrijAWEZOCY493YzfnlIuw/exec" method="POST">
               <div className="md:flex justify-center text-center">
-                <div className="mt-12 md:mt-0 mb-4 md:float-left bg-white p-8 rounded-lg relative w-[340px] md:w-auto mx-auto">
+                <div className="mt-12 md:mt-0 mb-6 md:float-left bg-white p-8 rounded-lg relative w-[340px] md:w-auto mx-auto">
                   <div className="bg-white rounded-full w-[60px] h-[60px] absolute top-[-7%] left-[40%]">
                     <p className="mt-3 text-xl text-[#be123cf]">Q1</p>
                   </div>
                   <Image src="/johansin.jpg" alt="Placeholder Image 2" className="mx-auto" width={300} height={300} />
                   <h3 className="my-6">自分の<span className="text-[#be123c]">ALTの数値</span>をご存じですか？</h3>
                   <label className="block mb-4 shadow-wide rounded-full p-4 text-[#be123c] text-[20px]">
-                    <input type="radio" name="question1" value="YES" className="mr-6 w-6 h-6 relative top-1.5"/>
+                    <input type="radio" name="question1" value="YES" className="mr-6 w-6 h-6 relative top-1.5" required/>
                     YES
                   </label>
                   <label className="block shadow-wide rounded-full p-4 text-[#1756B4] text-[20px]">
-                    <input type="radio" name="question1" value="NO" className="mr-6 w-6 h-6 relative top-1.5" />
+                    <input type="radio" name="question1" value="NO" className="mr-6 w-6 h-6 relative top-1.5 right-1" />
                     NO
                   </label>
                 </div>
 
-                <div className="mt-16 md:mt-0 mb-4 bg-white md:float-left p-8 md:ml-4 text-center rounded-lg relative w-[340px] md:w-auto mx-auto">
+                <div className="mt-16 md:mt-0 mb-6 bg-white md:float-left p-8 md:ml-4 text-center rounded-lg relative w-[340px] md:w-auto mx-auto">
                   <div className="bg-white rounded-full w-[60px] h-[60px] absolute top-[-7%] left-[40%]">
                     <p className="mt-3 text-xl text-[#be123cf]">Q2</p>
                   </div>
                   <Image src="/ningyo.jpg" alt="Placeholder Image 2" className="mx-auto" width={300} height={300} />
                   <p className="my-4">動画をみてどのように感じましたか？</p>
                   <label className="block mb-4 shadow-wide rounded-full p-4 text-[#be123c] text-left">
-                    <input type="checkbox" name="question2" value="自分のALTに興味を持った" className="ml-1 mr-2 w-5 h-5 relative top-1" />
+                    <input type="checkbox" name="question2" value="自分のALTに興味を持った" className="ml-1 mr-2 w-5 h-5 relative top-1"/>
                     自分のALTに興味を持った
                   </label>
                   <label className="block mb-4 shadow-wide rounded-full p-4 text-[#be123c] text-left">
@@ -93,7 +98,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex justify-center">
-                <button type="submit" className="hover:bg-slate-300 text-[#be123c] bg-white py-2 px-16 rounded-3xl block clear-both">
+                <button type="submit" className="hover:bg-slate-300 text-[#be123c] bg-white py-2 px-16 rounded-3xl block clear-both h-12 text-xl">
                   送信する
                 </button>
               </div>
