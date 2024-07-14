@@ -8,7 +8,7 @@ export default function Home() {
       
       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;800&display=swap" rel="stylesheet" />
       <div className="font-noto-sans">
-        <header className="text-center bg-[#be123c] text-white h-20"/>
+        <header className="text-center bg-[#be123c] h-20"/>
 
         <main className="bg-white md:p-8 shadow-lg">
           <div className="md:w-[800px] mx-auto">
