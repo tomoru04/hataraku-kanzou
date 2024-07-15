@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { YouTubeEmbed } from "@next/third-parties/google";
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -59,7 +60,7 @@ export default function Home() {
               </div>
             </div>
 
-            <form className="border border-pink-800 p-4 md:p-16 md:pb-6 md:rounded-lg mb-8 bg-[#be123c] font-bold text-[14px]" action="https://script.google.com/macros/s/AKfycbxPxobsrOVvsBb1khzgUraX-c3Y0CQCXhNQILvZN62sJPugEUXU2BHOIr70nIVseJNTGg/exec" method="POST">
+            <form className="border border-pink-800 p-4 md:p-16 md:pb-6 md:rounded-lg mb-8 bg-[#be123c] font-bold text-[14px]" action="https://script.google.com/macros/s/AKfycby2TrMlkqN7Ccn4fPIRsI1az8dT3pcHJyCMiVFvLOsjo0TxbxygRoTUL-J7OptLcV8_hA/exec" method="POST">
               <div className="md:flex justify-center text-center">
                 <div className="mt-12 md:mt-0 mb-6 md:float-left bg-white p-8 rounded-lg relative w-[340px] md:w-auto mx-auto">
                   <div className="bg-white rounded-full w-[60px] h-[60px] absolute top-[-7%] left-[40%]">
@@ -98,7 +99,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex justify-center">
-                <button type="submit" className="hover:bg-slate-300 text-[#be123c] bg-white py-2 px-16 rounded-3xl block clear-both h-12 text-xl">
+                <button type="submit" href="https://google.com" className="hover:bg-slate-300 text-[#be123c] bg-white py-2 px-16 rounded-3xl block clear-both h-12 text-xl">
                   送信する
                 </button>
               </div>
