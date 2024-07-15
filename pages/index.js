@@ -19,8 +19,8 @@ export default function Home() {
                 <div>
                   <p className="font-bold text-[20px]"><span className="text-[#be123c] text-[36px]">肝機能</span>に関する<br/>アンケートのお願い</p>
                   <div className="rounded-full bg-[#640201] h-14 w-40 flex items-center justify-center mt-2 mx-auto">
-                    <p className="text-white text-[16px] mr-2 mt-[0.5px]">全2問</p>
-                    <p className="text-white text-[16px] mb-1">|</p>
+                    <p className="text-white text-[16px] mr-2 mt-[0.5px] relative bottom-[1.0px]">全2問</p>
+                    <p className="text-white text-[16px] mb-1 relative bottom-[0.5px]">|</p>
                     <p className="text-white text-[20px] ml-2 mb-[1.2px]">30秒</p>
                   </div>
                 </div>
@@ -69,12 +69,12 @@ export default function Home() {
                   <Image src="/johansin.png" alt="Placeholder Image 2" className="mx-auto" width={300} height={300} />
                   <h3 className="my-6">自分の<span className="text-[#be123c]">ALTの数値</span>をご存じですか？</h3>
                   <label className="block mb-4 shadow-wide rounded-full p-4 text-[#be123c] text-[20px]">
-                    <input type="radio" name="question1" value="YES" className="mr-6 w-6 h-6 relative top-1.5" required/>
-                    YES
+                    <input type="radio" name="question1" value="YES" className="mr-6 w-6 h-6 align-middle relative bottom-[2px]" required/>
+                    <a>YES</a>
                   </label>
                   <label className="block shadow-wide rounded-full p-4 text-[#1756B4] text-[20px]">
-                    <input type="radio" name="question1" value="NO" className="mr-6 w-6 h-6 relative top-1.5 right-1" />
-                    NO
+                    <input type="radio" name="question1" value="NO" className="mr-6 w-6 h-6 align-middle relative bottom-[2px] right-1" />
+                    <a>NO</a>
                   </label>
                 </div>
 
@@ -85,16 +85,16 @@ export default function Home() {
                   <Image src="/ningyo.png" alt="Placeholder Image 2" className="mx-auto" width={300} height={300} />
                   <p className="my-4">動画をみてどのように感じましたか？</p>
                   <label className="block mb-4 shadow-wide rounded-full p-4 text-[#be123c] text-left">
-                    <input type="checkbox" name="question2" value="自分のALTに興味を持った" className="ml-1 mr-2 w-5 h-5 relative top-1"/>
-                    自分のALTに興味を持った
+                    <input type="checkbox" name="question2" value="自分のALTに興味を持った" className="ml-1 mr-2 w-5 h-5 align-middle relative bottom-[0.5px]"/>
+                    <a>自分のALTに興味を持った</a>
                   </label>
                   <label className="block mb-4 shadow-wide rounded-full p-4 text-[#be123c] text-left">
-                    <input type="checkbox" name="question2" value="内容をもっと知りたいと思った" className="ml-1 mr-2 w-5 h-5 relative top-1" />
-                    内容をもっと知りたいと思った
+                    <input type="checkbox" name="question2" value="内容をもっと知りたいと思った" className="ml-1 mr-2 w-5 h-5 align-middle relative bottom-[0.5px]" />
+                    <a>内容をもっと知りたいと思った</a>
                   </label>
                   <label className="block shadow-wide rounded-full p-4 text-[#be123c] text-left">
-                    <input type="checkbox" name="question2" value="医療機関を受診しようと思った" className="ml-1 mr-2 w-5 h-5 relative top-1" />
-                    医療機関を受診しようと思った
+                    <input type="checkbox" name="question2" value="医療機関を受診しようと思った" className="ml-1 mr-2 w-5 h-5 align-middle relative bottom-[0.5px]" />
+                    <a>医療機関を受診しようと思った</a>
                   </label>
                 </div>
               </div>
