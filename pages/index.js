@@ -25,7 +25,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex items-center justify-center md:relative md:ml-12">
-                <Image src="/kanzou.jpg" alt="Placeholder Image 1" className="opacity-40 md:opacity-100 h-full" width={400} height={300}/>
+                <Image src="/kanzou.png" alt="Placeholder Image 1" className="opacity-40 md:opacity-100 h-full" width={400} height={300}/>
               </div>
             </div>
             
@@ -65,7 +65,7 @@ export default function Home() {
                   <div className="bg-white rounded-full w-[60px] h-[60px] absolute top-[-7%] left-[40%]">
                     <p className="mt-3 text-xl text-[#be123cf]">Q1</p>
                   </div>
-                  <Image src="/johansin.jpg" alt="Placeholder Image 2" className="mx-auto" width={300} height={300} />
+                  <Image src="/johansin.png" alt="Placeholder Image 2" className="mx-auto" width={300} height={300} />
                   <h3 className="my-6">自分の<span className="text-[#be123c]">ALTの数値</span>をご存じですか？</h3>
                   <label className="block mb-4 shadow-wide rounded-full p-4 text-[#be123c] text-[20px]">
                     <input type="radio" name="question1" value="YES" className="mr-6 w-6 h-6 relative top-1.5" required/>
@@ -81,7 +81,7 @@ export default function Home() {
                   <div className="bg-white rounded-full w-[60px] h-[60px] absolute top-[-7%] left-[40%]">
                     <p className="mt-3 text-xl text-[#be123cf]">Q2</p>
                   </div>
-                  <Image src="/ningyo.jpg" alt="Placeholder Image 2" className="mx-auto" width={300} height={300} />
+                  <Image src="/ningyo.png" alt="Placeholder Image 2" className="mx-auto" width={300} height={300} />
                   <p className="my-4">動画をみてどのように感じましたか？</p>
                   <label className="block mb-4 shadow-wide rounded-full p-4 text-[#be123c] text-left">
                     <input type="checkbox" name="question2[]" value="自分のALTに興味を持った" className="ml-1 mr-2 w-5 h-5 relative top-1"/>
@@ -146,7 +146,7 @@ export default function Home() {
             </div>
             <div className="text-left flex-wrap">
               <p className="">[免責事項はこちら]</p>
-              <p>〇〇 All rights reserved</p>
+              <p>大正製薬 All rights reserved</p>
             </div>
           </div>
         </footer>
