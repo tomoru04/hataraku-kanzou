@@ -85,15 +85,15 @@ export default function Home() {
                   <Image src="/ningyo.png" alt="Placeholder Image 2" className="mx-auto" width={300} height={300} />
                   <p className="my-4">動画をみてどのように感じましたか？</p>
                   <label className="block mb-4 shadow-wide rounded-full p-4 text-[#be123c] text-left">
-                    <input type="checkbox" name="question2[]" value="自分のALTに興味を持った" className="ml-1 mr-2 w-5 h-5 relative top-1"/>
+                    <input type="checkbox" name="question2" value="自分のALTに興味を持った" className="ml-1 mr-2 w-5 h-5 relative top-1"/>
                     自分のALTに興味を持った
                   </label>
                   <label className="block mb-4 shadow-wide rounded-full p-4 text-[#be123c] text-left">
-                    <input type="checkbox" name="question2[]" value="内容をもっと知りたいと思った" className="ml-1 mr-2 w-5 h-5 relative top-1" />
+                    <input type="checkbox" name="question2" value="内容をもっと知りたいと思った" className="ml-1 mr-2 w-5 h-5 relative top-1" />
                     内容をもっと知りたいと思った
                   </label>
                   <label className="block shadow-wide rounded-full p-4 text-[#be123c] text-left">
-                    <input type="checkbox" name="question2[]" value="医療機関を受診しようと思った" className="ml-1 mr-2 w-5 h-5 relative top-1" />
+                    <input type="checkbox" name="question2" value="医療機関を受診しようと思った" className="ml-1 mr-2 w-5 h-5 relative top-1" />
                     医療機関を受診しようと思った
                   </label>
                 </div>
