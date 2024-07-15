@@ -8,7 +8,7 @@ export default function Home() {
     <div>
       
       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;800&display=swap" rel="stylesheet" />
-      <div className="font-noto-sans">
+      <div className="font-noto-sans text-black">
         <header className="text-center bg-[#be123c] h-20"/>
 
         <main className="bg-white md:p-8 shadow-lg">
@@ -59,7 +59,7 @@ export default function Home() {
               </div>
             </div>
 
-            <form className="border border-pink-800 p-4 md:p-16 md:pb-6 md:rounded-lg mb-8 bg-[#be123c] font-bold text-[14px]" action="https://script.google.com/macros/s/AKfycbxGbKTtAqtVRudWP2WPCjO5VEi9HNvqv-fnzhYqgeZ0RdlCVrijAWEZOCY493YzfnlIuw/exec" method="POST">
+            <form className="border border-pink-800 p-4 md:p-16 md:pb-6 md:rounded-lg mb-8 bg-[#be123c] font-bold text-[14px]" action="https://script.google.com/macros/s/AKfycbxPxobsrOVvsBb1khzgUraX-c3Y0CQCXhNQILvZN62sJPugEUXU2BHOIr70nIVseJNTGg/exec" method="POST">
               <div className="md:flex justify-center text-center">
                 <div className="mt-12 md:mt-0 mb-6 md:float-left bg-white p-8 rounded-lg relative w-[340px] md:w-auto mx-auto">
                   <div className="bg-white rounded-full w-[60px] h-[60px] absolute top-[-7%] left-[40%]">
@@ -84,15 +84,15 @@ export default function Home() {
                   <Image src="/ningyo.jpg" alt="Placeholder Image 2" className="mx-auto" width={300} height={300} />
                   <p className="my-4">動画をみてどのように感じましたか？</p>
                   <label className="block mb-4 shadow-wide rounded-full p-4 text-[#be123c] text-left">
-                    <input type="checkbox" name="question2" value="自分のALTに興味を持った" className="ml-1 mr-2 w-5 h-5 relative top-1"/>
+                    <input type="checkbox" name="question2[]" value="自分のALTに興味を持った" className="ml-1 mr-2 w-5 h-5 relative top-1"/>
                     自分のALTに興味を持った
                   </label>
                   <label className="block mb-4 shadow-wide rounded-full p-4 text-[#be123c] text-left">
-                    <input type="checkbox" name="question2" value="内容をもっと知りたいと思った" className="ml-1 mr-2 w-5 h-5 relative top-1" />
+                    <input type="checkbox" name="question2[]" value="内容をもっと知りたいと思った" className="ml-1 mr-2 w-5 h-5 relative top-1" />
                     内容をもっと知りたいと思った
                   </label>
                   <label className="block shadow-wide rounded-full p-4 text-[#be123c] text-left">
-                    <input type="checkbox" name="question2" value="医療機関を受診しようと思った" className="ml-1 mr-2 w-5 h-5 relative top-1" />
+                    <input type="checkbox" name="question2[]" value="医療機関を受診しようと思った" className="ml-1 mr-2 w-5 h-5 relative top-1" />
                     医療機関を受診しようと思った
                   </label>
                 </div>
