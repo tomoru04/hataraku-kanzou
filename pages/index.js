@@ -119,7 +119,7 @@ export default function Home() {
               </div>
               <p className="mx-8 text-left text-[10px]">日本において、人間ドックや健診を受けた人の1/3は肝機能の数値が異常だったという報告があります。<br/>そして高いALT値は肝疾患における有害な転帰や有病率の増加をもたらすという報告もあります。1) <br/>一方で肝臓は「沈黙の臓器」と言われ、障害があっても症状が現れにくく<br/>明らかな症状が出るころには既に重症化してしまう特徴があります。 </p>
               <div className="flex flex-col mt-4 px-6 md:px-16">
-                <a className="bg-[#be123c] text-white mb-2 py-2 px-4 rounded-3xl hover:bg-pink-900">
+                <a className="bg-[#be123c] text-white mb-2 py-2 px-4 rounded-3xl hover:bg-pink-900" href="https://www.jsh.or.jp/medical/">
                   詳しく知りたい方はこちら
                 </a>
                 <a className="bg-[#be123c] text-white py-2 px-4 rounded-3xl hover:bg-pink-900" href="https://medical.taisho.co.jp/">
