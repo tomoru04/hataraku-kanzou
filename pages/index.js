@@ -34,12 +34,12 @@ export default function Home() {
                 <div className="my-auto">
                   <p className="text-[20px] font-bold"><span className="text-[#be123c] text-2xl">｢奈良宣言2023｣</span><br className="md:hidden"/>をご存じですか？</p>
                   <div className="mt-4 md:hidden">
-                    <YouTubeEmbed videoid="2DX5DYOr2PI"/>
+                    <YouTubeEmbed videoid="Vv-utS68Xhg"/>
                   </div>
                   <p className="text-[11px] mt-6">日本肝臓学会では、「Stop CLD せんとくんの<br/>Over30（ALT＞30U/L）」の宣言を発出し、<br/>かかりつけ医への受診促進を目的として、<br/><span className="font-bold">慢性肝臓病（CLD）の早期発見</span>を図ります。</p>
                 </div>
                 <div className="ml-10 hidden md:block">
-                    <YouTubeEmbed videoid="2DX5DYOr2PI" width={300}/>
+                    <YouTubeEmbed videoid="Vv-utS68Xhg" width={300}/>
                 </div>
               </div>
             </div>
@@ -49,12 +49,12 @@ export default function Home() {
                 <div className="my-auto">
                   <h2 className="text-[20px] font-bold">何が原因で<br className="md:hidden"/><span className="text-[#be123c] text-2xl">ALTは高くなる？</span></h2>
                   <div className="mt-4 md:hidden">
-                    <YouTubeEmbed videoid="Vv-utS68Xhg"/>
+                    <YouTubeEmbed videoid="2DX5DYOr2PI"/>
                   </div>
                   <p className="text-[11px] mt-6"><span className="font-bold">運動不足</span>や<span className="font-bold">睡眠不足</span>などによる<span className="font-bold">生活習慣</span>を基盤とした、<br className="hidden md:block"/>いわゆる脂肪肝などが進行して肝硬変や肝臓がんになることも<br className="hidden md:block"/>増えており、<span className="font-bold">日常生活から注意</span>が必要です。</p>
                 </div>
                 <div className="ml-[76px] hidden md:block">
-                  <YouTubeEmbed videoid="Vv-utS68Xhg" width={300}/>
+                  <YouTubeEmbed videoid="2DX5DYOr2PI" width={300}/>
                 </div>
               </div>
             </div>
