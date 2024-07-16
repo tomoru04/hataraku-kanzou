@@ -129,13 +129,13 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="w-[310px] md:w-auto mx-auto mt-8 mx-4 pb-8 text-xs">
+            <div className="w-[310px] md:w-[700px] mx-auto mt-8 mx-4 pb-8 text-xs">
               <h3>(1)Kenneth Cusi et al., American Association of Clinical Endocrinology <br className="hidden md:block"/>Clinical Practice Guideline for the Diagnosis and Management of <br className="hidden md:block"/>Nonalcoholic Fatty Liver Disease in Primary Care and Endocrinology <br className="hidden md:block"/>Clinical Settings Co- Sponsored by the American Association for the Study <br className="hidden md:block"/>of Liver Diseases (AASLD)</h3>
             </div>
           </div>
         </main>
         <footer className="text-center bg-[#be123c] text-white py-4">
-          <div className="w-[310px] mx-auto flex-wrap text-left">
+          <div className="w-[310px] md:w-[700px] mx-auto flex-wrap text-left">
             <div className="flex mb-2">
               <div className="pr-2 mr-2 border-r-2">
                 <p>[運営会社情報]</p>
@@ -148,6 +148,9 @@ export default function Home() {
             <div className="text-left flex-wrap">
               <p className="">[免責事項はこちら]</p>
               <p>大正製薬 All rights reserved</p>
+              <p className="text-[12px]">
+                大正製薬株式会社(以下、「当社」といいます)は細心の注意を払い当ウェブサイト(https://www.altover30.comドメインのウェブサイトを指します)に情報を掲載しておりますが、この情報の正確性および完全性を保証するものではありません。また、当社は予告なしに当ウェブサイト掲載情報・内容の変更や当ウェブサイトの公開一時停止・終了を行うことがあります。当社および当ウェブサイト掲載の団体は、利用者が当ウェブサイトの情報を用いて行う一切の行為について、何らの責任を負うものではありません。また、利用者が当ウェブサイトにをご利用されたことで生じた損害につき当社および当ウェブサイト掲載の団体としては、一切責任を負いかねますので御了承ください。
+              </p>
             </div>
           </div>
         </footer>
